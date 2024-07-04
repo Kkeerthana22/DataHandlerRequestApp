@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>CompanyDataManagerService</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>NodeJSInt</members>
+		<name>ConnectedApp</name>
+	</types>
+	<types>
+		<members>companyData__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>companyData__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>companyData__c-CompanyInformation</members>
+		<members>companyData__c-Customer Data</members>
+		<members>companyData__c-Payments Data</members>
+		<members>companyData__c-Referral Data</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>companyData__c.CompanyInfo</members>
+		<members>companyData__c.Customer</members>
+		<members>companyData__c.Payment</members>
+		<members>companyData__c.Referral</members>
+		<name>RecordType</name>
+	</types>
+	<version>60.0</version>
+</Package>
